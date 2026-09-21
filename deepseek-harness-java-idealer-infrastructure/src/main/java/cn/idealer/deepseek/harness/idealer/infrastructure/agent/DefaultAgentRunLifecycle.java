@@ -1,15 +1,12 @@
 package cn.idealer.deepseek.harness.idealer.infrastructure.agent;
 
-import cn.idealer.deepseek.harness.idealer.domain.agent.model.AgentOptions;
+import cn.idealer.deepseek.harness.idealer.domain.agent.model.entity.AgentOptions;
 import cn.idealer.deepseek.harness.idealer.domain.agent.port.AgentRunLifecycle;
 import cn.idealer.deepseek.harness.idealer.domain.agent.service.Inbox;
 import cn.idealer.deepseek.harness.idealer.domain.agent.service.run.AgentRun;
-import cn.idealer.deepseek.harness.idealer.domain.agent.service.run.ReactLoopAgent;
-import cn.idealer.deepseek.harness.idealer.domain.llm.port.LlmRuntimePort;
 import cn.idealer.deepseek.harness.idealer.domain.prompt.port.SystemPromptAssembler;
 import cn.idealer.deepseek.harness.idealer.domain.tool.port.ToolCallExecutor;
 import cn.idealer.deepseek.harness.idealer.domain.tool.port.ToolRegistry;
-import cn.idealer.deepseek.harness.idealer.infrastructure.session.InMemorySessionLog;
 import org.springframework.stereotype.Component;
 
 import java.util.concurrent.ConcurrentHashMap;

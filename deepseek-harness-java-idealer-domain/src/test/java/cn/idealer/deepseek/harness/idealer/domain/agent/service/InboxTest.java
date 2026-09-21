@@ -1,7 +1,6 @@
 package cn.idealer.deepseek.harness.idealer.domain.agent.service;
 
-import cn.idealer.deepseek.harness.idealer.domain.agent.model.InboxTarget;
-import cn.idealer.deepseek.harness.idealer.types.model.Message;
+import cn.idealer.deepseek.harness.idealer.domain.agent.model.valobj.InboxTarget;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

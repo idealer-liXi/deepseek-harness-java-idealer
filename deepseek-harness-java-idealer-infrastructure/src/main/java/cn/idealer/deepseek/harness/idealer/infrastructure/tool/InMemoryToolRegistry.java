@@ -2,7 +2,6 @@ package cn.idealer.deepseek.harness.idealer.infrastructure.tool;
 
 import cn.idealer.deepseek.harness.idealer.domain.tool.model.ToolDefinition;
 import cn.idealer.deepseek.harness.idealer.domain.tool.port.ToolRegistry;
-import cn.idealer.deepseek.harness.idealer.types.model.ToolSchema;
 import org.springframework.stereotype.Component;
 
 import java.util.LinkedHashMap;

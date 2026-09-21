@@ -2,8 +2,6 @@ package cn.idealer.deepseek.harness.idealer.infrastructure.tool;
 
 import cn.idealer.deepseek.harness.idealer.domain.tool.port.ToolCallExecutor;
 import cn.idealer.deepseek.harness.idealer.domain.tool.port.ToolRegistry;
-import cn.idealer.deepseek.harness.idealer.types.model.ToolCallBlock;
-import cn.idealer.deepseek.harness.idealer.types.model.ToolResultBlock;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

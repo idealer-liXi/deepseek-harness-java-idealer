@@ -1,8 +1,9 @@
 package cn.idealer.deepseek.harness.idealer.infrastructure.prompt;
 
-import cn.idealer.deepseek.harness.idealer.domain.agent.model.AgentOptions;
+import cn.idealer.deepseek.harness.idealer.domain.agent.model.entity.AgentOptions;
 import cn.idealer.deepseek.harness.idealer.domain.prompt.port.SystemPromptAssembler;
-import cn.idealer.deepseek.harness.idealer.types.model.ToolSchema;
+import cn.idealer.deepseek.harness.idealer.types.model.valobj.ToolSchema;
+
 import org.springframework.stereotype.Component;
 
 import java.util.List;

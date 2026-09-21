@@ -1,7 +1,6 @@
 package cn.idealer.deepseek.harness.idealer.app;
 
 import cn.idealer.deepseek.harness.idealer.api.IAgentApi;
-import cn.idealer.deepseek.harness.idealer.caseapp.AgentMessageService;
 import cn.idealer.deepseek.harness.idealer.domain.agent.port.AgentRunLifecycle;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

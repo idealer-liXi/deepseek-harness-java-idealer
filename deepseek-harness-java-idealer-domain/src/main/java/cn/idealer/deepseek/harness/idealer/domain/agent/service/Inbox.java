@@ -1,7 +1,7 @@
 package cn.idealer.deepseek.harness.idealer.domain.agent.service;
 
-import cn.idealer.deepseek.harness.idealer.domain.agent.model.InboxTarget;
-import cn.idealer.deepseek.harness.idealer.types.model.Message;
+import cn.idealer.deepseek.harness.idealer.domain.agent.model.valobj.InboxTarget;
+import cn.idealer.deepseek.harness.idealer.types.model.entity.Message;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
